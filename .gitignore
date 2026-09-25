@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Temporary storage
+temp_files/
+*.tmp
+*.pdf
+
+# SQLite fallback DB if generated locally
+*.db
+*.sqlite3
+
+# IDE / OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
